@@ -61,13 +61,14 @@ html, body {
   background: rgba(255, 255, 255, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 15px;
-  max-height: 300px;
+  max-height: 230px;
   overflow-y: auto;
   border-radius: 8px;
   text-align: left;
   color: #111;
   font-size: 15px;
 }
+
 
 /* Softer, More Defined Buttons */
 .section-button, .pdf-button {
