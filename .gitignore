@@ -1,0 +1,10 @@
+
+*.webm
+*.wav
+*.npy
+*.mkv
+*.mp4
+/server/venv
+server/.env
+/.venv
+/scripts/__pycache__
