@@ -90,12 +90,6 @@ const SignUp = () => {
       </div>
 
       {/* Right Side - Two Separate Images with Spacing */}
-      <div className="right-panel">
-        <div className="image-container">
-          <img src="/images/speech_therapist_1.png" alt="Person 1" className="right-image" />
-          <img src="/images/speech_therapist_2.png" alt="Person 2" className="right-image" />
-        </div>
-      </div>
     </div>
   );
 };
