@@ -1,0 +1,53 @@
+body {
+    background-color: #22A1FB; /* Soft light blue for the whole page background */
+    margin: 0;
+    padding: 0;
+}
+  
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+  
+.loading-image {
+    width: 1000px; /* Increased image width */
+    height: 1000px; /* Increased image height */
+    margin-top: 20px;
+    cursor: pointer; /* Make the image look clickable */
+}
+  
+/* Typed text animation */
+.loading-container p {
+    font-size: 32px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #fff; /* Cursor effect */
+    width: 0;
+    animation: typing 3s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+  
+@keyframes typing {
+    to {
+        width: 100%;
+    }
+}
+  
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
